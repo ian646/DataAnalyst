@@ -244,5 +244,19 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var openers = document.querySelectorAll('#menu .opener');
+
+    openers.forEach(function (opener) {
+      opener.addEventListener('click', function (e) {
+        e.preventDefault(); // stop the link from navigating, if it's an <a>
+        this.classList.toggle('active');
+      });
+    });
+  });
+</script>
+
+
 	</body>
 </html>
