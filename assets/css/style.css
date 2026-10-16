@@ -73,6 +73,7 @@ header h1 {
     font-weight: 700;
     margin-bottom: 15px;
     letter-spacing: 1px;
+    font-heading: Georgia, sans-serif;
 }
 
 header p {
