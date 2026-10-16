@@ -9,8 +9,8 @@
     /* --- Shared Variables (These usually don't need to change) --- */
     --light-bg-color: #F8F9FA;
     --white-color: #ffffff;
-    --dark-text-color: #343A40;
-    --light-text-color: #6c757d;
+    --dark-text-color: #374151;
+    --light-text-color: #485563;
     --card-bg-color: #ffffff;
     
     /* Fonts */
@@ -151,6 +151,7 @@ nav ul li a:hover::after {
     margin-bottom: 70px;
     position: relative;
     color: var(--primary-color);
+    color: #17365D;
 }
 
 .section h2::after {
